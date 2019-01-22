@@ -17,50 +17,57 @@
 		
 		<antcall target="generatePackageMembers2">
 			<param name="objtyp"  value="SharingOwnerRule" />
-			<param name="objext"  value="SharingOwnerRule" />
-			<param name="objdir"  value="SharingOwnerRule" />
+			<param name="objext"  value="ownerRules" />
+			<param name="objdir"  value="sharingRules" />
 			<param name="objflt"  value="*" />
 		</antcall>
 
 		<antcall target="generatePackageMembers2">
 			<param name="objtyp"  value="WaveApplication" />
-			<param name="objext"  value="WaveApplication" />
-			<param name="objdir"  value="WaveApplication" />
+			<param name="objext"  value="wapp" />
+			<param name="objdir"  value="wave" />
 			<param name="objflt"  value="*" />
 		</antcall>
 		
 		<antcall target="generatePackageMembers2">
 			<param name="objtyp"  value="WaveDashboard" />
-			<param name="objext"  value="WaveDashboard" />
-			<param name="objdir"  value="WaveDashboard" />
+			<param name="objext"  value="wdash" />
+			<param name="objdir"  value="wave" />
 			<param name="objflt"  value="*" />
 		</antcall>
 		
 		<antcall target="generatePackageMembers2">
 			<param name="objtyp"  value="WaveDataflow" />
-			<param name="objext"  value="WaveDataflow" />
-			<param name="objdir"  value="WaveDataflow" />
+			<param name="objext"  value="wdf" />
+			<param name="objdir"  value="wave" />
 			<param name="objflt"  value="*" />
 		</antcall>
 		
 		<antcall target="generatePackageMembers2">
 			<param name="objtyp"  value="WaveDataset" />
-			<param name="objext"  value="WaveDataset" />
-			<param name="objdir"  value="WaveDataset" />
+			<param name="objext"  value="wds" />
+			<param name="objdir"  value="wave" />
 			<param name="objflt"  value="*" />
 		</antcall>
 		
 		<antcall target="generatePackageMembers2">
 			<param name="objtyp"  value="WaveLens" />
-			<param name="objext"  value="WaveLens" />
-			<param name="objdir"  value="WaveLens" />
+			<param name="objext"  value="wlens" />
+			<param name="objdir"  value="wave" />
 			<param name="objflt"  value="*" />
 		</antcall>
 		
 		<antcall target="generatePackageMembers2">
 			<param name="objtyp"  value="WaveTemplateBundle" />
-			<param name="objext"  value="WaveTemplateBundle" />
-			<param name="objdir"  value="WaveTemplateBundle" />
+			<param name="objext"  value="json" />
+			<param name="objdir"  value="waveTemplates" />
+			<param name="objflt"  value="*" />
+		</antcall>
+		
+		<antcall target="generatePackageMembers2">
+			<param name="objtyp"  value="WaveTemplateBundle" />
+			<param name="objext"  value="csv" />
+			<param name="objdir"  value="waveTemplates" />
 			<param name="objflt"  value="*" />
 		</antcall>
 		
