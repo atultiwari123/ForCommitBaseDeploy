@@ -100,7 +100,7 @@
   <!-- ***************************************************************************** -->
   <!-- Deploy the meta-data from code Repository to salesforce your org     -->
   <!-- ***************************************************************************** -->
-  <target name="deploy" depends="proxy">
+  <target name="deploy">
     <echo level="info">Performing the deploy</echo>
     <sf:deploy username="${sf.username}"
       password="${sf.password}"
