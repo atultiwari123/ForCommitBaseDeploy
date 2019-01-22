@@ -8,6 +8,12 @@
 		<echo file="${stage.dir}/${target}"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 ]]></echo>
+		<antcall target="generatePackageMembers2">
+			<param name="objtyp"  value="SharingCriteriaRule" />
+			<param name="objext"  value="sharingRules" />
+			<param name="objdir"  value="sharingRules" />
+			<param name="objflt"  value="*" />
+		</antcall>
 
 		<antcall target="generatePackageMembers2">
 			<param name="objtyp"  value="CustomApplication" />
