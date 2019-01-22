@@ -107,8 +107,6 @@
       serverurl="${sf.serverurl}"
       deployRoot="${basedir}/src"/>
   </target>
-
-  <target name="deployPackage" depends="deploy"/>
   
   <!-- ***************************************************************************** -->
   <!-- Deploy Delta the meta-data from code Repository to salesforce your org      -->
