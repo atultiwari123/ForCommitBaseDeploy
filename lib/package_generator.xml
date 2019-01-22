@@ -17,8 +17,8 @@
 		
 		<antcall target="generatePackageMembers2">
 			<param name="objtyp"  value="SharingOwnerRule" />
-			<param name="objext"  value="sharingRules" />
-			<param name="objdir"  value="sharingRules" />
+			<param name="objext"  value="SharingOwnerRule" />
+			<param name="objdir"  value="SharingOwnerRule" />
 			<param name="objflt"  value="*" />
 		</antcall>
 
