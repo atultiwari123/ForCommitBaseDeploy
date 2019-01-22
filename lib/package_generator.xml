@@ -14,7 +14,56 @@
 			<param name="objdir"  value="sharingRules" />
 			<param name="objflt"  value="*" />
 		</antcall>
+		
+		<antcall target="generatePackageMembers2">
+			<param name="objtyp"  value="SharingOwnerRule" />
+			<param name="objext"  value="sharingRules" />
+			<param name="objdir"  value="sharingRules" />
+			<param name="objflt"  value="*" />
+		</antcall>
 
+		<antcall target="generatePackageMembers2">
+			<param name="objtyp"  value="WaveApplication" />
+			<param name="objext"  value="WaveApplication" />
+			<param name="objdir"  value="WaveApplication" />
+			<param name="objflt"  value="*" />
+		</antcall>
+		
+		<antcall target="generatePackageMembers2">
+			<param name="objtyp"  value="WaveDashboard" />
+			<param name="objext"  value="WaveDashboard" />
+			<param name="objdir"  value="WaveDashboard" />
+			<param name="objflt"  value="*" />
+		</antcall>
+		
+		<antcall target="generatePackageMembers2">
+			<param name="objtyp"  value="WaveDataflow" />
+			<param name="objext"  value="WaveDataflow" />
+			<param name="objdir"  value="WaveDataflow" />
+			<param name="objflt"  value="*" />
+		</antcall>
+		
+		<antcall target="generatePackageMembers2">
+			<param name="objtyp"  value="WaveDataset" />
+			<param name="objext"  value="WaveDataset" />
+			<param name="objdir"  value="WaveDataset" />
+			<param name="objflt"  value="*" />
+		</antcall>
+		
+		<antcall target="generatePackageMembers2">
+			<param name="objtyp"  value="WaveLens" />
+			<param name="objext"  value="WaveLens" />
+			<param name="objdir"  value="WaveLens" />
+			<param name="objflt"  value="*" />
+		</antcall>
+		
+		<antcall target="generatePackageMembers2">
+			<param name="objtyp"  value="WaveTemplateBundle" />
+			<param name="objext"  value="WaveTemplateBundle" />
+			<param name="objdir"  value="WaveTemplateBundle" />
+			<param name="objflt"  value="*" />
+		</antcall>
+		
 		<antcall target="generatePackageMembers2">
 			<param name="objtyp"  value="CustomApplication" />
 			<param name="objext"  value="app" />
