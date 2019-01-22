@@ -3,7 +3,7 @@
     <sharingCriteriaRules>
         <fullName>Label_1</fullName>
         <accessLevel>Read</accessLevel>
-        <label>Label 1</label>
+        <label>Label 1</label><!-- -->
         <sharedTo>
             <role>Training_Coordinator</role>
         </sharedTo>
